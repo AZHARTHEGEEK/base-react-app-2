@@ -23,6 +23,7 @@ function App({name,age,year}) {
        <li>Linux</li>
      </ol> 
   </div>
+  <h6>Build Using React</h6>
 </div>;
 }
 
