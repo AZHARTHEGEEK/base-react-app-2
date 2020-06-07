@@ -1,11 +1,11 @@
 import React from 'react';
 import './custom_css.css';
 
-function App({name,age}) {
+function App({name,age,year}) {
   return <div className="custon_bg">
   <div>Hello from <strong>{name}</strong>, Age: {age+1}</div>
   <h1>This Second Base React App Task</h1>
-  <h3>Bootcamp 2020</h3>
+  <h3>Bootcamp {year}</h3>
   <div> Unordered List Of Courses
      <ul>
        <li>Artificial Intelligence</li>
