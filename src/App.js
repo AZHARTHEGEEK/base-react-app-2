@@ -5,6 +5,7 @@ function App({name,age}) {
   return <div className="custon_bg">
   <div>Hello from <strong>{name}</strong>, Age: {age+1}</div>
   <h1>This Second Base React App Task</h1>
+  <h3>Bootcamp 2020</h3>
   <div> Unordered List Of Courses
      <ul>
        <li>Artificial Intelligence</li>
