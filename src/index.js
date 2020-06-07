@@ -6,7 +6,7 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App name="Muhammad Azhar"  age={18} />
   </React.StrictMode>,
   document.getElementById('root')
 );

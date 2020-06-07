@@ -1,26 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './custom_css.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+function App({name,age}) {
+  return <div className="custon_bg">
+  <div>Hello from <strong>{name}</strong>, Age: {age+1}</div>
+  <h1>This Second Base React App Task</h1>
+  <div> Unordered List Of Courses
+     <ul>
+       <li>Artificial Intelligence</li>
+       <li>4IR</li>
+       <li>Bootcamp2020</li>
+     </ul> 
+  </div>
+  <div> Ordered List Of Courses
+     <ol>
+       <li>Deep learning</li>
+       <li>HTML,CSS</li>
+       <li>javaScript</li>
+       <li>React</li>
+       <li>Word Press</li>
+       <li>Linux</li>
+     </ol> 
+  </div>
+</div>;
 }
 
 export default App;
